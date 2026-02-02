@@ -1,0 +1,32 @@
+/* Test Data */
+body {
+    min-height: 500vh;
+    background: #FCFCFD;
+}
+
+.section-header .container {
+    /* background: #999 !important; */
+}
+
+.section-main {
+    min-height: 60vh;
+}
+
+.section-footer {
+    min-height: 60vh;
+    background: #000;
+    color: #fff;
+    background-size: contain;
+}
+
+.section-footer,
+.section-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-footer.container,
+.section-main.container {
+    justify-content: start;
+}
